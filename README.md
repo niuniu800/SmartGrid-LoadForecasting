@@ -17,7 +17,7 @@ Both models are implemented in PyTorch and trained on real-world power grid data
 
 ##  Model Architectures
 
-### ⚙️ Transformer
+###  Transformer
 - Encoder-decoder structure (3 layers each)
 - Multi-head attention (4 heads)
 - Layer normalization, residual connections
