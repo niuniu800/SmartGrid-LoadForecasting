@@ -55,7 +55,7 @@ SmartGrid-LoadForecasting/
 ├── prediction_vs_actual.png   # Output plot (Mamba)
 ├── trans_1.png / trans_2.png  # Output plots (Transformer)
 └── README.md                  # Project description
-Getting Started
+## Getting Started
 1. Install Dependencies
 
 pip install torch numpy pandas matplotlib scikit-learn einops tqdm
@@ -66,9 +66,9 @@ python Transformer.py
 Mamba:
 python Mamba.py
 
- Make sure the file path to quanzhou.csv is correctly set in the scripts. By default, it points to a Windows local path (you may need to change it).
+Make sure the file path to quanzhou.csv is correctly set in the scripts. By default, it points to a Windows local path (you may need to change it).
 
-Dataset
+## Dataset
 Source: Provided by the competition (or organization)
 
 Features: 5 input variables + target variable (FUHE)
@@ -77,12 +77,12 @@ Preprocessing: Normalized using MinMaxScaler
 
 Sample generation: sliding window (look_back = 1, T = 1)
 
-Visualization
+## Visualization
 prediction_vs_actual.png: Predicted vs actual load (Mamba)
 
 trans_1.png: Transformer prediction curve
 
 trans_2.png: Scatter plot of actual vs predicted (Transformer)
 
-License
+## License
 This project is for educational and academic research purposes only.
