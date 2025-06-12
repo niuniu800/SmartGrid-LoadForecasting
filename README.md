@@ -48,13 +48,16 @@ Mamba showed superior performance in all metrics, especially under rapid load fl
 
 ```bash
 SmartGrid-LoadForecasting/
-├── Transformer.py             # Transformer model script
-├── Mamba.py                   # Mamba + KAN model script
-├── quanzhou.csv               # Input dataset (not uploaded here)
-├── requirements.txt           # Python package dependencies
-├── prediction_vs_actual.png   # Output plot (Mamba)
-├── trans_1.png / trans_2.png  # Output plots (Transformer)
-└── README.md                  # Project description
+├── Transformer.py                         # Transformer model script
+├── Mamba.py                               # Mamba + KAN model script
+├── quanzhou.csv                           # Input dataset (not uploaded here)
+├── requirements.txt                       # Python package dependencies
+├── prediction_vs_actual_Mamba.png         # Output plot (Mamba)
+├── scatter_Mamba.png                      # Output plot (Mamba)
+├── prediction_vs_actual_transformer.png   # Output plot (Transformer)
+├── scatter_Transformer.png                # Output plot (Transformer)
+└── README.md                              # Project description
+
 ## Getting Started
 1. Install Dependencies
 
